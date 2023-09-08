@@ -1,0 +1,322 @@
+* {
+    margin:0;
+width: 100%;
+flex-wrap: nowrap;
+
+
+}
+    
+.header {
+    display:flex;
+	
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: center;
+	
+	
+	
+	
+}
+body { 
+	background:url(../istockphoto-1518668690-612x612.jpg) no-repeat center center fixed;
+	background-image: cover;
+	background-size: cover;
+	border: 30px black solid;
+	
+
+	
+	
+}
+.h1 {
+	font-size: 80px;
+    margin-top: 50px;
+	margin-left: 25px;
+	min-width: fit-content;
+	
+
+}
+.himg {
+	height:400px;
+	width:100%;
+	
+	background-size: cover;
+	
+	
+}
+
+
+
+.nav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content:space-evenly;
+	margin-right:45px;
+	width: 133%;;
+   
+}
+
+
+.nav li {
+	margin-top: 85px;
+	list-style: none;
+	margin-right: 20px;
+	flex-wrap: nowrap;
+	
+
+}
+a {
+	font-size: 45px;
+	color: black;
+	flex-wrap: nowrap;
+	font: bolder 900;
+	
+}
+
+p {
+	font-size: 25px;
+	
+
+}
+
+.flex {
+	display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: fit-content;
+    margin: auto;
+}
+
+#headerimg{
+
+	height: 320px;
+	width: 100%;
+    border-left: 30px black solid;
+	
+}
+
+
+#headerimg img{
+	width: 100%;
+}
+.h2 {
+	display: flex;
+	flex-direction: row-reverse;
+	color:white bolder;
+	text-align: center;
+    
+	
+    
+    
+
+}
+.h2 h2{
+	width: 350px;
+    padding: 20px 0px 20px 2px;
+    font-size: 50px;
+    margin-top: -130px;
+    margin-right: 80px;
+    background: white;
+    text-align: center;
+    height: fit-content;
+	color: black;
+}
+ h2 {
+	color: white;
+	font-size: 50px;
+	font-weight: 900 bolder;
+	font-style: oblique;
+	
+ }
+
+.cards {
+   display:flex;
+   flex-direction: column;
+   margin-top: 25px;
+ 
+   margin-right: 40px;
+
+}
+.cardSection {
+	display: flex;
+	flex-direction: row;
+    margin: 40px 25px 40px 10px;
+	padding-right: 30px;
+	
+}
+
+.cardBody {
+	
+    display: flex;
+    background-color: aliceblue;
+    border: 8px solid;
+    margin: auto;
+    width: 50%
+	
+}
+.cardbody-3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+    
+    
+	
+	
+	
+	
+}
+.cardBody-2 {
+	display: flex;
+	flex-direction: row;
+	border-left: 8px solid;
+	border-right: 8px solid;
+	border-top: 8px solid;
+    margin: auto;
+
+    
+	
+}
+
+.contact {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	
+	text-align: center;
+	font-size: 30px;
+	
+	
+	
+}
+.contact h2{
+	margin: -20;
+	border-bottom: 15px white solid;
+}
+
+#center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 70px;
+}	
+
+#left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-right: 5px black solid;
+	margin-left: -30px;
+	
+	width: 380px;
+}
+
+.contactCards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 300px;
+	
+
+
+}
+.contactCards div{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-between;
+	width: 250px;
+	height: 175px;
+	background: rgb(226, 222, 210);
+	border:10px solid ;
+	align-self: flex-end;
+	width: 400px;
+    
+}
+.container {
+	display: flex;
+    justify-content: center;
+	flex-direction: column;
+	justify-items: center;
+	text-align: center;
+	align-items: center;
+}  
+.container label, .container input{
+	text-align: center;
+	justify-self: center;
+	font-size: 15px;
+}
+
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+
+}
+#img1 {
+	width:30% ;
+	width:auto;
+	padding:10px;
+}
+
+
+.flex1 {
+	display: flex;
+	flex-direction: column;
+	width:120%
+	
+}
+
+img {
+	padding-left:5px;
+	width: fit-content;
+	
+}
+
+img:hover {
+	
+	border: 10px rgb(0, 0, 0) solid;
+}
+
+h3{ 
+	font-size: 30px;
+	border-bottom: 10px;
+	padding-top: 30px;
+	text-decoration: underline;
+	background-color: white;
+	
+	
+}
+
+h5 {
+	font-size: 20px;
+	
+	padding: 60px 0px 20px 0px;
+}
+
+footer{
+	display: flex;
+	border-bottom: 30px black solid;
+	border-left: 30px black solid;
+}
+
+
+#img3 {
+	padding-top: 10px;
+
+}
+ #cardbody{
+	width: 100%;
+	border-left: 8px solid;
+	border-right: 8px solid;
+	border-bottom: 8px solid;
+ }
+ 
+ #img4 {
+	width: 100%;
+	border-left: 8px solid;
+	border-right: 8px solid;
+	border-bottom: 8px solid;
+ 
+ }
